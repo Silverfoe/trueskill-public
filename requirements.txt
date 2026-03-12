@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+trueskill
+httpx
+httpx[http2]
+python-dotenv
+asyncpg
+pytest
+pytest-asyncio
+time[monotonic]
+logging
