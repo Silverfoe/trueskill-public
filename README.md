@@ -1524,18 +1524,16 @@ Fix:
 
 ## License Notice
 
-From the source file:
-
 > TrueSkill is the exclusive property of Microsoft Corporation.
 >
 > Used under the terms of the TrueSkill license:
 > Microsoft permits only Xbox Live games or non-commercial projects to use TrueSkill(TM).
 > If your project is commercial, you should find another rating system.
 >
-> This TrueSkill project is opened under the BSD license but the
+> This TrueSkill project is opened under the BSD license, but the
 > TrueSkill(TM) brand is not.
 
-Some code snippets were taken from Stack Overflow and The Blue Alliance's API is compleyley seperate from this API.
+Some code snippets were taken from Stack Overflow, and The Blue Alliance's API is completely separate from this API.
 
 ---
 
