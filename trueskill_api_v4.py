@@ -1893,8 +1893,12 @@ async def shutdown():
     if db_pool:
         await db_pool.close()
 
-app.add_event_handler("startup", startup)
-app.add_event_handler("shutdown", shutdown)
+if hasattr(app, "add_event_handler"):
+    app.add_event_handler("startup", startup)
+    app.add_event_handler("shutdown", shutdown)
+else:
+    app.router.on_startup.append(startup)
+    app.router.on_shutdown.append(shutdown)
 
 if __name__ == "__main__":
     import uvicorn
